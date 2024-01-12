@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #151515;
+}
+
+.container{
+    background-color: #262626;
+    border-style: solid;
+    border-color: #505050;
+    border-radius: 10px;
+    width: 500px;
+    height: 320px;
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -250px;
+    margin-top: -150px;
+}
+
+.card{
+    padding: 1rem;
+    flex-grow: 1;
+    flex-basis: 300px;
+    margin-top: -130px;
+}
+
+.row{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card p{
+    margin-left: 250px;
+    margin-top: -150px;
+    color: whitesmoke;
+    background-color: #262626;
+    border-style: solid;
+    border-radius: 10px;
+    border-left: 150px;
+    border-right: 150px;
+    border-color: #505050;
+}
+
+.card h1{
+    color: whitesmoke;
+    margin-left: 19rem;
+}
+
+.card p a{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: grey;
+    border-color: grey;
+    border-radius: 10px;
+}
+
+.rozetler{
+    margin-top: 25px;
+    padding: 1rem;
+}
+
+.rozetler i{
+    font-size: 50px;
+    color: white;
+    background-color: #202020;
+    border-style: solid;
+    border-color: #252525;
+    border-radius: 10px;
+}
+
+.card img{
+    border-style: solid;
+    border-color: #202020;
+    border-radius: 20px;
+}
+
+.socialmedia p a{
+    text-decoration: none;
+    margin-left: 260px;
+    color: deeppink;
+}
+
+.socialmedia2 p a{
+    text-decoration: none;
+    color: aqua;
+}
+
+.card{
+    display: auto;
+}
